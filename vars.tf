@@ -1,9 +1,9 @@
 variable "projectName" {
-  default = "telemed"
+  default = "telemedic"
 }
 
 variable "clusterName" {
-  default = "dbtelemed"
+  default = "dbtelemedic"
 }
 
 variable "regionDefault" {
@@ -15,7 +15,7 @@ variable "engineRds" {
 }
 
 variable "engineRdsVersion" {
-  default = "16.10"
+  default = "13.11"
 }
 
 variable "rdsUser" {
@@ -69,7 +69,7 @@ variable "AWSAccount" {
 variable "tags" {
   type = map(string)
   default = {
-    App      = "db_telemed",
+    App      = "db_telemedic",
     Ambiente = "Desenvolvimento"
   }
 }
