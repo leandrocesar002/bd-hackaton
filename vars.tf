@@ -43,23 +43,23 @@ variable "maxStorage" {
 }
 
 variable "subnet01" {
-  default = "subnet-05ea2e97dcc8a7a92" # example: subnet-abcdef1
+  default = "subnet-0bdfab6205e733c60" # example: subnet-abcdef1
 }
 
 variable "subnet02" {
-  default = "subnet-061aed0ae0c6e4311" # example: subnet-abcdef1
+  default = "subnet-08cdf659c92dd39d2" # example: subnet-abcdef1
 }
 
 variable "subnet03" {
-  default = "subnet-07b69fc41ed96c892" # example: subnet-abcdef1
+  default = "subnet-0b93c5fa0dfd4f71b" # example: subnet-abcdef1
 }
 
 variable "vpcId" {
-  default = "vpc-00a3ec4b285dc7ca6" # example: vpc-abcdef1
+  default = "vpc-02f5c867a584ac85e" # example: vpc-abcdef1
 }
 
 variable "vpcCIDR" {
-  default = "172.31.0.0/20" # example: 10.10.0.0/16
+  default = "172.31.16.0/20" # example: 10.10.0.0/16
 }
 
 variable "AWSAccount" {
