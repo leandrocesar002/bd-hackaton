@@ -1,9 +1,9 @@
 variable "projectName" {
-  default = "telemedicina"
+  default = "telemed"
 }
 
 variable "clusterName" {
-  default = "dbtelemedicina"
+  default = "dbtelemed"
 }
 
 variable "regionDefault" {
@@ -69,7 +69,7 @@ variable "AWSAccount" {
 variable "tags" {
   type = map(string)
   default = {
-    App      = "db_telemedicina",
+    App      = "db_telemed",
     Ambiente = "Desenvolvimento"
   }
 }
