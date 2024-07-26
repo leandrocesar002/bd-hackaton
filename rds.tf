@@ -1,5 +1,5 @@
 resource "aws_db_instance" "rds" {
-  db_name                      = "lanchonete"
+  db_name                      = "telemedicina_db"
   engine                       = var.engineRds
   engine_version               = var.engineRdsVersion
   identifier                   = "rds-${var.projectName}"
